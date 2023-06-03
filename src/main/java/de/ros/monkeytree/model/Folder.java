@@ -7,6 +7,9 @@ import java.util.Objects;
 import lombok.Getter;
 import lombok.Setter;
 
+/**
+ * Folder model.
+ */
 @Getter
 @Setter
 public class Folder {

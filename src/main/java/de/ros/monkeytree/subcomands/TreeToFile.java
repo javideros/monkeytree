@@ -10,6 +10,9 @@ import lombok.extern.log4j.Log4j2;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
 
+/**
+ * Subcommand to write a tree of folders to a file.
+ */
 @Component
 @Log4j2
 @Command(name = "to-file", description = "Writes a tree of folders to a file", exitCodeOnExecutionException = 456)
